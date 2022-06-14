@@ -1,0 +1,16 @@
+body{
+    background-color: #C7EBC8;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+
+}
+
+a {
+    justify-content: space-between;
+}

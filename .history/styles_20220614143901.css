@@ -1,0 +1,27 @@
+body{
+    background-color: #C7EBC8;
+}
+
+header {
+    background-color: #EDE7E5;
+    padding: 4rem;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+}
+
+.menu{
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: .4rem;
+}

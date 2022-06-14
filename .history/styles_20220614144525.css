@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body{
+    background-color: #C7EBC8;
+}
+
+header {
+    padding: 3rem;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+.menu{
+    background-color: #FFFFFF;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: .4rem;
+}

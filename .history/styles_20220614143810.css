@@ -1,0 +1,21 @@
+body{
+    background-color: #C7EBC8;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+}
+
+.menu{
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: .4rem;
+}

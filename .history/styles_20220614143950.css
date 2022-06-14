@@ -1,0 +1,28 @@
+body{
+    background-color: #C7EBC8;
+}
+
+header {
+    background-color: #00000000;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+}
+
+.menu{
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: .4rem;
+}
