@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-color: #C7EBC8;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #1859d3, #0091fc, #00bbd9, #00da84, #a8eb12);
+    color: transparent;
+}
+
+.menu{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: .4rem;
+}
+
+
+
+.perfil {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.foto{
+    align-items: center;
+}
+
+.conteudo{
+    display: flex;
+}
+
+h1{
+    margin: auto;
+    position: absolute;
+    
+}
+
+img{
+    border-radius: 50%;
+    max-width:750px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+}
+
+#icon{
+    max-width: 40px;
+    max-height:40px;
+
+}
+
+
