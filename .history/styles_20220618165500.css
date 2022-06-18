@@ -62,7 +62,7 @@ hr{
 
 .conteudo{
     width:  400px;
-    height: 300px;
+    max-height: 300px;
     text-align: center;
     margin-right: 8%;
     text-align: center;
@@ -96,6 +96,7 @@ p{
 .contatos{
     display: flex;
     flex-direction: column;
+    vertical-align: top;
 }
 
 ul li{
@@ -108,8 +109,6 @@ ul li{
     align-self: center;
     width: 24px;
     height: 24px;
-    vertical-align: middle;
-
 }
 
 .frase{
