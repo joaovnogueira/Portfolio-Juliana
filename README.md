@@ -3,9 +3,9 @@
 Projeto iniciado para entender as tecnologias de HTML e CSS
 
 - Tecnologias usadas
-HTML
-CSS
+  - HTML
+  - CSS
 
 - Upgrades futuros
-Responsividade
+  - Responsividade
 
