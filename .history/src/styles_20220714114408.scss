@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #2D1533;
+    --text: #FFFCF5;
+    rgb(40, 31, 31)
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: var(--background);
+}
+
+p {
+    color: var(--text);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    div{
+        font-family: 'Cookie', cursive;
+        font-size: 86px;
+        background: linear-gradient(to right, #6666ff, #ff3399, #6666ff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow_animation 10s ease-in-out infinite;
+        background-size: 400% 100%;
+
+    }
+    @keyframes rainbow_animation {
+        0%,100% {
+            background-position: 0 0;
+        }
+    
+        50% {
+            background-position: 100% 0;
+        }
+    }
+    
+}
+
+.foto {
+    img{
+        border-radius: 50%;
+        max-width:750px;
+        max-height:350px;
+        width: auto;
+        height: auto;
+    }
+    
+}
+
+.conteudo{
+    img{
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    }
+}
+
+
+
