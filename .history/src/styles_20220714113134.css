@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #FFFCF5;
+  --text: #210C1F;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+body {
+  background: var(--background);
+}
+
+.foto img {
+  border-radius: 50%;
+  max-width: 750px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+}
+
+.conteudo img {
+  filter: invert(42%) sepia(93%) saturate(12%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}/*# sourceMappingURL=styles_20220714113134.css.map */

@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #25262A;
+  --text: #FFFCF5;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+body {
+  background: var(--background);
+}
+
+h1 {
+  color: var(--text);
+  font-family: "Cookie", cursive;
+  font-weight: bold;
+  font-size: 5rem;
+  background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%, #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-animation: rainbow_animation 5s ease-in-out infinite;
+          animation: rainbow_animation 5s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+p {
+  color: var(--text);
+  font-family: "Lato", sans-serif;
+}
+
+header div {
+  background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%, #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-animation: rainbow_animation 5s ease-in-out infinite;
+          animation: rainbow_animation 5s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+header div {
+  display: flex;
+  font-family: "Cookie", cursive;
+  font-size: 86px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid #515054;
+  padding: 1rem;
+}
+@-webkit-keyframes rainbow_animation {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+@keyframes rainbow_animation {
+  0%, 100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: var(--background);
+}
+.foto img {
+  border-radius: 50%;
+  max-width: 750px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+}
+
+.perfil .conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.perfil .conteudo img {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
+  width: 5rem;
+  height: 5rem;
+}
+.perfil .conteudo h1 {
+  position: relative;
+  margin: 1rem;
+  -webkit-animation-name: h1animation;
+          animation-name: h1animation;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+.perfil .conteudo p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  width: 30rem;
+  margin: 1rem;
+}
+.perfil .conteudo .contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.perfil .conteudo .contatos img {
+  margin-right: 1rem;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+.perfil .conteudo .contatos a {
+  text-decoration: none;
+  background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%, #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-animation: rainbow_animation 5s ease-in-out infinite;
+          animation: rainbow_animation 5s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+@-webkit-keyframes h1animation {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes h1animation {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.frase {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frase blockquote i {
+  font-family: "Cookie", cursive;
+  font-size: 3rem;
+  background-image: radial-gradient(circle farthest-corner at 10.2% 55.8%, #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-animation: rainbow_animation 5s ease-in-out infinite;
+          animation: rainbow_animation 5s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+footer a {
+  text-decoration: none;
+}/*# sourceMappingURL=styles_20220714140207.css.map */

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #25262A;
+    --text: #FFFCF5;
+    --border: #515054;
+    .conteudo{
+        img{
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    
+        }
+    }
+    header{
+        div{
+            img{
+                filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
+            }
+        }
+    }
+}
+
+.light-mode:root {
+    --background: #FFFFFFFF;
+    --text: #25262A;
+    --border: #BDBFBF;
+    .conteudo{
+        img{
+            filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    
+        }
+    }
+    header{
+        div{
+            img{
+                filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+}
+
+h1{
+    color: var(--text);
+    font-family: 'Cookie', cursive;
+    font-weight: bold;
+    font-size: 5rem;
+
+    background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1% );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 5s ease-in-out infinite;
+    background-size: 400% 100%;
+
+}
+
+p {
+    color: var(--text);
+    font-family: 'Lato', sans-serif;
+}
+
+
+header{
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        text-align: center;
+        padding: 1rem;
+        label{
+            font-size: 1rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            text-align: center;
+            input{
+                cursor: pointer;
+                padding: 1rem;
+                width: 1rem;
+                height: 1rem;
+                border: 2px solid #cccccc;
+                margin: 5px;
+            }
+        }
+    }
+   
+    .logo{
+        background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1% );
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow_animation 5s ease-in-out infinite;
+        background-size: 400% 100%;
+
+    }
+    .logo {
+        display: flex;
+        font-family: 'Cookie', cursive;
+        font-size: 8rem;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 3px solid var(--border);
+        padding: 1rem;
+    }
+
+    @keyframes rainbow_animation {
+        0%, 100% {
+            background-position: 0 0;
+        }
+    
+        50% {
+            background-position: 100% 0;
+        }
+    }
+    
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--background);
+    img{
+        border-radius: 50%;
+        max-width:750px;
+        max-height:350px;
+        width: auto;
+        height: auto;
+    }
+    
+}
+
+.perfil{
+    .conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        img{
+            width: 5rem;
+            height: 5rem;
+        }
+        h1{
+            position: relative;
+            margin: 1rem;
+            animation-name: h1animation;
+            animation-duration: 1.5s;
+            animation-iteration-count: 1;
+            border-right: 5px solid var(--border)
+            border-
+        }
+        p{
+            font-size: 1.5rem;
+            padding: 2rem;
+            width: 30rem;
+            margin: 1rem;
+        }
+        .contatos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img{
+                margin-right: 1rem;
+                vertical-align: middle;
+                width: 50px;
+                height : 50px;
+            }
+            a{
+                text-decoration: none;
+                background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1% );
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                animation: rainbow_animation 5s ease-in-out infinite;
+                background-size: 400% 100%; 
+            }
+        }
+
+        @keyframes h1animation{
+            0%{
+                left: -50%;
+            }
+            100%{
+                left: 0;
+            }
+        }
+    
+    }
+}
+
+.frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid var(--border);
+    blockquote{
+        i{
+            font-family: 'Cookie', cursive;
+            font-size: 5rem;
+            background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1% );
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow_animation 5s ease-in-out infinite;
+            background-size: 400% 100%;
+        }
+    }
+
+}
+
+footer{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        background-image: radial-gradient( circle farthest-corner at 10.2% 55.8%,  #fc2567 0%, #fa2697, 46.2%, #ba08b5 90.1% );
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: rainbow_animation 5s ease-in-out infinite;
+        background-size: 400% 100%;
+    }
+}
+
+
+
+
