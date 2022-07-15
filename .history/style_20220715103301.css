@@ -21,7 +21,7 @@
 .light-mode:root {
   --background: #FFFFFFFF;
   --text: #25262A;
-  --border: #25262A;
+  --border: #BDBFBF;
 }
 .light-mode:root .conteudo img {
   filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(87deg) brightness(119%) contrast(119%);
@@ -142,7 +142,6 @@ header .logo {
   align-items: center;
   justify-content: center;
   padding: 3rem;
-  flex-wrap: wrap;
 }
 .perfil .conteudo img {
   width: 5rem;
@@ -157,9 +156,6 @@ header .logo {
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  border-right: 5px solid var(--border);
-  border-radius: 5px;
-  padding: 1.5rem;
 }
 .perfil .conteudo p {
   font-size: 1.5rem;
@@ -171,14 +167,13 @@ header .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
-  margin: 0;
+  justify-content: center;
 }
 .perfil .conteudo .contatos img {
   margin-right: 1rem;
   vertical-align: middle;
   width: 50px;
-  height: auto;
+  height: 50px;
 }
 .perfil .conteudo .contatos a {
   text-decoration: none;
@@ -211,6 +206,7 @@ header .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5rem;
   border-bottom: 3px solid var(--border);
 }
 .frase blockquote i {
@@ -240,4 +236,4 @@ footer a {
   -webkit-animation: rainbow_animation 5s ease-in-out infinite;
           animation: rainbow_animation 5s ease-in-out infinite;
   background-size: 400% 100%;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style_20220715103301.css.map */

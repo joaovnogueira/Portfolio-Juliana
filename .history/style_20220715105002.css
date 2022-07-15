@@ -43,6 +43,8 @@
 body {
   background: var(--background);
   color: var(--text);
+  width: 100vh;
+  height: 100vh;
 }
 
 h1 {
@@ -142,7 +144,6 @@ header .logo {
   align-items: center;
   justify-content: center;
   padding: 3rem;
-  flex-wrap: wrap;
 }
 .perfil .conteudo img {
   width: 5rem;
@@ -240,4 +241,4 @@ footer a {
   -webkit-animation: rainbow_animation 5s ease-in-out infinite;
           animation: rainbow_animation 5s ease-in-out infinite;
   background-size: 400% 100%;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style_20220715105002.css.map */
